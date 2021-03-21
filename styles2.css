@@ -1,0 +1,498 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Add a black background color to the top navigation */
+.topnav {
+	overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+	float: left;
+	display: block;
+	color: #000000;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+/***Hamburger Menu****/
+
+.topnav .icon {
+	display: none;
+}
+body {
+	max-width: 1224px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: arial;
+}
+
+p {
+	font-size: 20px;
+}
+
+nav ul li {
+	list-style-type: none;
+	padding-left: 20px;
+	text-align: right;
+	display: inline-block;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.hero-box {
+	height: 700px;
+	background-color: #ff00d7;
+	background-image: url('img/succlent.jpg');
+	background-size: cover;
+	margin: 1%;
+}
+
+h1 {
+	color: #000000;
+	font-size: 55px;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+	padding-top: 120px;
+	padding-left: 60px;
+}
+
+.col img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.col {
+	width: 48%;
+	float: left;
+	margin: 1%;
+}
+
+.col2 {
+	width: 100%;
+	float: left;
+	margin: 1;
+}
+
+.content {
+	width: 100;
+}
+
+h3 {
+	font-size: 30px;
+	text-align: center;
+}
+
+h4 {
+	font-size: 30px;
+	text-align: center;
+}
+
+li {
+	font-size: 300px;
+	text-align: center;
+	padding-left: 0px;
+	padding-top: 0px;
+	list-style-type: none;
+}
+
+/* font awesome icons */
+.fa {
+	padding: 20px;
+	font-size: 100px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.footer-distributed {
+	display: flex;
+	background-color: #2c292f;
+	box-sizing: border-box;
+	height: auto;
+	font: bold 16px sans-serif;
+	padding: 50px 50px 60px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.footer-distributed h3 {
+	color: #ffffff;
+	font: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+	margin: 0;
+}
+
+.footer-distributed h3 span {
+	color: #e0ac1c;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+	color: #ffffff;
+	margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a {
+	display: inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+	color: #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+	width: 100%;
+}
+
+.footer-distributed .footer-center i {
+	background-color: #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+	display: block;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+	color: #e0ac1c;
+	text-decoration: none;
+}
+
+/* Bottom right text */
+.bottom-right {
+	position: absolute;
+	height: 50px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+	bottom: 8px;
+	right: 16px;
+	background-color: dimgrey;
+	margin: 2px;
+	font-size: 40px;
+}
+
+.bottom-right service {
+	color: white;
+}
+
+/*************************TABLET***************************************************************************/
+@media (max-width: 1024px) {
+	.hero-box {
+		height: 500px;
+		background-image: url('img/succlent.jpg');
+		background-size: cover;
+		margin: 1%;
+	}
+
+	.topnav a:not(:first-child),
+	.dropdown .dropbtn {
+		display: none;
+	}
+	.topnav a.icon {
+		float: right;
+		display: block;
+	}
+}
+h1 {
+	color: #000000;
+	font-size: 55px;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+	padding-top: 120px;
+	margin: 10%;
+}
+
+h2 {
+	color: #000000;
+	font-size: 55px;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+	position: relative;
+	margin-left: 40%;
+}
+
+h3 {
+	font-size: 40px;
+	text-align: center;
+}
+
+h4 {
+	margin-top: 10;
+	font-size: 30px;
+	text-align: center;
+	color: white;
+}
+p {
+	font-size: 20px;
+	line-height: 27px;
+}
+
+.col {
+	position: relative;
+	width: 48%;
+	float: left;
+	margin: 1%;
+}
+
+.description2 {
+	font-size: 20px;
+	margin: 5%;
+}
+
+/*MOBILE*/
+@media (max-width: 480px) {
+	body {
+		min-width: 480px;
+	}
+}
+
+.hero-box {
+	height: 500px;
+	background-image: url('img/succlent.jpg');
+	background-size: cover;
+	margin: 1px;
+}
+h1 {
+	font-size: 50px;
+	margin-top: 1px;
+}
+
+h2 {
+	font-size: 33px;
+	margin-top: 1px;
+}
+
+.col {
+	width: 100%;
+}
+
+h3 {
+	margin-top: 10;
+	font-size: 30px;
+	text-align: center;
+}
+
+h4 {
+	margin-top: 10;
+	font-size: 30px;
+	text-align: center;
+	color: white;
+}
+
+p {
+	font-size: 16px;
+	line-height: 27px;
+}
+
+.navbar a {
+	display: none;
+}
+
+.dropdown {
+	display: none;
+}
+
+li {
+	font-size: 30px;
+	text-align: center;
+	list-style-type: none;
+}
+/* font awesome icons */
+.fa {
+	padding: 20px;
+	font-size: 100px;
+	width: 80px;
+	text-align: center;
+	align-content: center;
+	text-decoration: none;
+}
+
+.footer-distributed {
+	background-color: #2c292f;
+	box-sizing: border-box;
+	padding: 50px 50px 60px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.footer-distributed h3 {
+	color: #ffffff;
+	font: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+	margin: 0;
+}
+
+.footer-distributed h3 span {
+	color: #e0ac1c;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+	color: #ffffff;
+	margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a {
+	display: inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+	color: #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+	width: 100%;
+}
+
+.footer-distributed .footer-center i {
+	background-color: #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+	display: block;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+	color: #e0ac1c;
+	text-decoration: none;
+}
+/* ==================================================================== */
+/* ==================================================================== */
+/* ==================================================================== */
+/* ==================================================================== */
+
+.customFooter {
+	margin-left: 10px;
+	display: flex;
+	justify-content: space-around;
+	border: 0.1px solid gray;
+	background-color: gray;
+	color: white;
+	padding: 40px 0;
+	line-height: 2px;
+}
+
+.leftNav {
+	text-align: left;
+}
+
+.leftNav :first-child {
+	font-weight: 900;
+}
+
+.rightNav {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	margin-top: 50px;
+}
+
+.rightNav img {
+	height: 25px;
+	width: 25px;
+}
+
+.rightNav .booking {
+	padding: 20px 30px;
+	color: black;
+	background-color: gainsboro;
+	border-radius: 20px;
+	font-weight: 800;
+	font-size: 1rem;
+	border: none;
+	text-decoration: none;
+}
+
+.icons {
+	display: flex;
+	justify-content: space-around;
+	padding: 35px 0;
+}
